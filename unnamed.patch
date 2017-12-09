@@ -1,0 +1,562 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision af141e0aa77522c5bb5fad8b8d5cd3156ba4c5a4)
++++ .idea/workspace.xml	(date 1512819201215)
+@@ -2,10 +2,12 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="c8942de8-b15f-44bb-907d-cee72df0d181" name="Default" comment="">
+-      <change beforePath="" afterPath="$PROJECT_DIR$/music/templates/music/base.html" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
++      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+       <change beforePath="$PROJECT_DIR$/music/templates/music/detail.html" afterPath="$PROJECT_DIR$/music/templates/music/detail.html" />
+       <change beforePath="$PROJECT_DIR$/music/templates/music/index.html" afterPath="$PROJECT_DIR$/music/templates/music/index.html" />
++      <change beforePath="$PROJECT_DIR$/music/urls.py" afterPath="$PROJECT_DIR$/music/urls.py" />
++      <change beforePath="$PROJECT_DIR$/music/views.py" afterPath="$PROJECT_DIR$/music/views.py" />
+     </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="TRACKING_ENABLED" value="true" />
+@@ -45,44 +47,68 @@
+   </component>
+   <component name="FileEditorManager">
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
++      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/music/templates/music/detail.html">
+           <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="136">
++              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
++              <folding>
++                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
++          <provider selected="true" editor-type-id="text-editor">
+             <state relative-caret-position="68">
+-              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
++              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/music/templates/music/base.html">
++      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/music/views.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="289">
+-              <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
++            <state relative-caret-position="119">
++              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+               <folding>
+-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
++                <element signature="e#0#32#0" expanded="true" />
+               </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
++      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/music/templates/music/base.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="34">
++              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
+       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="221">
+-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
++            <state relative-caret-position="170">
++              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/music/static/music/style.css">
++      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/music/urls.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="51">
+-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+-              <folding />
++            <state relative-caret-position="153">
++              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
++              <folding>
++                <element signature="e#0#32#0" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+@@ -110,12 +136,12 @@
+         <option value="$PROJECT_DIR$/music/admin.py" />
+         <option value="$PROJECT_DIR$/music/models.py" />
+         <option value="$PROJECT_DIR$/music/static/music/images/style.css" />
+-        <option value="$PROJECT_DIR$/music/urls.py" />
+-        <option value="$PROJECT_DIR$/music/views.py" />
+         <option value="$PROJECT_DIR$/music/static/music/style.css" />
++        <option value="$PROJECT_DIR$/music/templates/music/base.html" />
++        <option value="$PROJECT_DIR$/music/views.py" />
++        <option value="$PROJECT_DIR$/music/urls.py" />
+         <option value="$PROJECT_DIR$/music/templates/music/index.html" />
+         <option value="$PROJECT_DIR$/music/templates/music/detail.html" />
+-        <option value="$PROJECT_DIR$/music/templates/music/base.html" />
+       </list>
+     </option>
+   </component>
+@@ -130,9 +156,10 @@
+     <detection-done>true</detection-done>
+     <sorting>DEFINITION_ORDER</sorting>
+   </component>
+-  <component name="ProjectFrameBounds" extendedState="1">
+-    <option name="x" value="-3" />
+-    <option name="width" value="1190" />
++  <component name="ProjectFrameBounds">
++    <option name="x" value="6" />
++    <option name="y" value="13" />
++    <option name="width" value="1135" />
+     <option name="height" value="828" />
+   </component>
+   <component name="ProjectInspectionProfilesVisibleTreeState">
+@@ -385,15 +412,15 @@
+     </todo-panel>
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-3" y="0" width="1190" height="828" extended-state="1" />
++    <frame x="6" y="13" width="1135" height="828" extended-state="0" />
+     <editor active="true" />
+     <layout>
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2534722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2609473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32010582" sideWeight="0.4779287" order="7" side_tool="true" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987013" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32642487" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3045977" sideWeight="0.5220713" order="2" side_tool="false" content_ui="tabs" x="29" y="313" width="1156" height="234" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29485396" sideWeight="0.5220713" order="2" side_tool="false" content_ui="tabs" x="29" y="313" width="1156" height="234" />
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2482699" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32005313" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+@@ -417,6 +444,9 @@
+   <component name="VcsContentAnnotationSettings">
+     <option name="myLimit" value="2678400000" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <option name="LAST_COMMIT_MESSAGE" value="" />
++  </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+@@ -429,13 +459,6 @@
+     <watches-manager />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/music/views.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="68">
+-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/music/models.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="102">
+@@ -720,13 +743,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/music/admin.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="34">
+-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/music/static/music/images/style.css" />
+     <entry file="file://$PROJECT_DIR$/music/__init__.py">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -735,13 +751,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/music/urls.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="34">
+-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/music/tests.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="51">
+@@ -749,13 +758,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/music/views.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="34">
+-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/manage.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+@@ -781,26 +783,64 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/music/templates/music/base.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="289">
+-          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
++        <state relative-caret-position="34">
++          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/music/admin.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding>
++            <element signature="e#0#32#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/music/urls.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="153">
++          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+           <folding>
+-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
++            <element signature="e#0#32#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="221">
+-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
++        <state relative-caret-position="170">
++          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
++    <entry file="file://$PROJECT_DIR$/music/views.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="119">
++          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
++          <folding>
++            <element signature="e#0#32#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/music/templates/music/detail.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="136">
++          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
++          <folding>
++            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="68">
+-          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
++          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+           <folding />
+         </state>
+       </provider>
+Index: music/templates/music/detail.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- music/templates/music/detail.html	(revision af141e0aa77522c5bb5fad8b8d5cd3156ba4c5a4)
++++ music/templates/music/detail.html	(date 1512819060636)
+@@ -2,26 +2,18 @@
+ {% block title %}Album Details{% endblock %}
+ 
+ {% block body %}
+-    <img src="{{ album.album_logo }}">
++
++    <img src="{{ album.album_logo }}" style="width: 250px;">
+ 
+     <h1>{{ album.album_title }}</h1>
+     <h2>{{ album.artist }}</h2>
+ 
+-    {% if error_message %}
+-        <p><strong>{{ error_message }}</strong></p>
+-    {% endif %}
+-
+-    <form action="{% url 'music:favorite' album.id %}" method="post">
+-        {% csrf_token %}
+-        {% for song in album.song_set.all %}
+-            <input type="radio" id="song{{ forloop.counter }}" name="song" value="{{ song.id }}" />
+-            <label for="song{{ forloop.counter }}">
+-                {{ song.song_title }}
+-                {% if song.is_favorite %}
+-                    <img src="http://speedway-rivne.at.ua/images/star.png" />
+-                {% endif %}
+-            </label><br>
+-        {% endfor %}
+-        <input type="submit" value="Favorite">
+-    </form>
++    {% for song in album.song_set.all %}
++        {{ song.song_title }}
++        {% if song.is_favorite %}
++            <img src="http://speedway-rivne.at.ua/images/star.png" />
++        {% endif %}
++        <br>
++    {% endfor %}
++
+ {% endblock %}
+\ No newline at end of file
+Index: music/templates/music/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- music/templates/music/index.html	(revision af141e0aa77522c5bb5fad8b8d5cd3156ba4c5a4)
++++ music/templates/music/index.html	(date 1512818698960)
+@@ -1,14 +1,11 @@
+ {% extends 'music/base.html' %}
+ 
+ {% block body %}
+-    {% if all_albums %}
+-        <h3>Here are all my Albums:</h3>
+-        <ul>
+-            {% for album in all_albums %}
+-                <li><a href="{% url 'music:detail' album.id %}">{{ album.album_title }}</a></li>
+-            {% endfor %}
+-        </ul>
+-    {% else %}
+-        <h3>You don't have any albums</h3>
+-    {% endif %}
++
++    <ul>
++        {% for album in all_albums %}
++            <li><a href="{% url 'music:detail' album.id %}">{{ album.album_title }}</a></li>
++        {% endfor %}
++    </ul>
++
+ {% endblock %}
+\ No newline at end of file
+Index: music/urls.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- music/urls.py	(revision af141e0aa77522c5bb5fad8b8d5cd3156ba4c5a4)
++++ music/urls.py	(date 1512818117130)
+@@ -4,12 +4,6 @@
+ app_name = 'music'
+ 
+ urlpatterns = [
+-    # /music/
+-    url(r'^$', views.index, name='index'),
+-
+-    # /music/<album_id>/
+-    url(r'^(?P<album_id>[0-9]+)/$', views.detail, name='detail'),
+-
+-    # /music/<album_id>/favorite/
+-    url(r'^(?P<album_id>[0-9]+)/favorite/$', views.favorite, name='favorite'),
++    url(r'^$', views.IndexView.as_view(), name='index'),
++    url(r'^(?P<pk>[0-9]+)/$', views.DetailView.as_view(), name='detail'),
+ ]
+Index: music/views.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- music/views.py	(revision af141e0aa77522c5bb5fad8b8d5cd3156ba4c5a4)
++++ music/views.py	(date 1512817849341)
+@@ -1,27 +1,16 @@
+-from django.shortcuts import render, get_object_or_404
+-from .models import Album, Song
++from django.views import generic
++from .models import Album
+ 
+ 
+-def index(request):
+-    all_albums = Album.objects.all()
+-    return render(request, 'music/index.html', {'all_albums': all_albums})
++class IndexView(generic.ListView):
++    template_name = 'music/index.html'
++    context_object_name = 'all_albums'
+ 
++    def get_queryset(self):
++        return Album.objects.all()
+ 
+-def detail(request, album_id):
+-    album = get_object_or_404(Album, pk=album_id)
+-    return render(request, 'music/detail.html', {'album': album})
+ 
++class DetailView(generic.DetailView):
++    model = Album
++    template_name = 'music/detail.html'
+ 
+-def favorite(request, album_id):
+-    album = get_object_or_404(Album, pk=album_id)
+-    try:
+-        selected_song = album.song_set.get(pk=request.POST['song'])
+-    except (KeyError, Song.DoesNotExist):
+-        return render(request, 'music/detail.html', {
+-            'album': album,
+-            'error_message': "You did not select a valid song"
+-            })
+-    else:
+-        selected_song.is_favorite = True
+-        selected_song.save()
+-        return render(request, 'music/detail.html', {'album': album})
+\ No newline at end of file
+diff --git db.sqlite3 db.sqlite3
+index 4cf02b6d6cea4a44d661e6eb691503765421e455..1526043a7a1f4a029d3a5e9c82c13d5473a55702
+GIT binary patch
+literal 151552
+zc%1E>ZEPFKdB?fp%aWGJkuB@iiS1}5SvfO0iQHYj>X2S^vh0)3l59ziEe987Nv^21
+zNG^}0Z0oLROZj>z(grD7pvZ?NErNas@+l3_1}!cha&6I~0TQGwa7~cDAO(V?$O{^v
+z2#Ta=XO>HHNs)SS?&6E?|AV#OnSGvTo_S_C+?gG%R&QL>tD3lBlnZKAR2+j2j&poK
+z6dex7P5LuIe@5s}AN{#Re_W0hoa10_I;Q@&>}JB`r!0Mj{M3Jb;B^0`{x?p9yvx3y
+z@wYumcgFRa^J~u0zAX0{jvT`3TSskhh!>WpxSFIFv)Ti7ySka$u4v^{u54_VD)n<c
+zn~JHDtYs7FPJz>NEAz8!^WwtNrTN?9*n#?E;_}j7u`%)Dm?b$DtUYsz7q+NNmHk~Z
+zlk6lJQKI2YIFs5g>MwSR4_OZ0Tw1ts^I$)_8$H<Tr^K;_Dy_lHNnXe$xtiLlLH%k;
+zD;M-iMK_8S+c_&Q5y?a|Nm=VIe5y;B4{Oop{2mong*Gkf{Nx}nyg;2_+|T)DoYImU
+z&ZIYz-Q`Xm%I`hK4szKR>bt}%)SO9fcl=Q9wudO3$trR*9d7lUJ*tDf`_H2lbLhI!
+zF4fsI7Xq|tCfl0ECXz9VRjpV}Rd-4nD^}i!#A8|{-62Q1w8<f?*!*ruGlx4AsGF;P
+zUf7xBcFCdK%otg%s1~$TSW?qUJgT-@qooz--3&)IedwCd7HC))3+|p9;Dy;)?%`Zj
+zP3N`NU|=3>joAB&->Ssg?6cSA?c+(OAajP6FY45voK_Z>me<6ko7b+1*H;!6XIIw6
+z=jYeO*_&(23rp1G;{4JYb+s`R?bTYDzdXM(zce?$YAe(#Be<uV9YVi7Y|KiqR_*77
+zsVVN^*^cnk$I8z1K(A1=hSpzT0Ggk<L#Udv&1ye<pN|(tMz~kU+pFC?Inkq{k5t2w
+zTB+PO%2e&1TFz{$<%^P>2sU-8L|&~_Q+Xq&)0WAqRjsNQH2ZbElB#Ue=BvAqHjKRe
+zD$6x{d(*xWZke|}d{k~jFVkXrOEw(YS3)bOdcJiv9u0OnT2(hT_Bu(gsF|vMPuqKm
+z)i`z6(2H8OOZ9`&36C&8!a2-gsq$i;-Uy~>gBWHy)#`&%^R$2Wl$RHhN$%k@t@hnB
+zY<JJ~b!qvoBmR-Q!6SFqH|w)L=;4LYQLeVt5tP;$->dSERN?l1l-S!Rg9`5vu8i*6
+zwDqV-t#dEE|7AapU5}d=CMVm5_Exn!lAbO#+Y_Uor+U%$k4fj3(*8}By{i^;M%x#m
+zt?`@RX07ofY%48Td(OoRhQifeHsjXCSV}FGQh7D4<x>S}ET4+U(pe>|q|I;EE(-3h
+zU))EwT>sAQQM;xl`^Gkv=}kz^$qS0Y?QWZG+C{TVmaDyOdk6F9Y2UVx)2l7-dy3TS
+z)T7a^_jy?7T{r7#b^VI=;<i@IbS9l`_3OBJk-7O4O$BS~94~}I+^%YmT|v*4)hZjb
+z_GI*Rja%#bBSnqIrB!7)+Wz&>9@5UMR5h>f`3|6;^e4{x>2a|C{~Y9R$sdp`84bJ<
+z_;}#CfXDy3|JVKUz<&<>*}%hr87cq(000000QhAmIp}r>@!7(5MbCu8VL4SXin)|t
+zNo}b2j53`L$zdrzCCO9am?$YTN_<9^rlq(XQ<N*j?HIl}%O?C(GnrEJ)yC3obFnK`
+zP#>i7S}|AM>}p7fB;|NGKz*2K`XHtBqF&Y2d{aXarO1quoQWi-B{>m`M-;!?aeiX9
+zqSY6TdMPP0a)K!-(YO>%ULK(St~UHl*!^v+^L2CAZbyklq{#FA)XobHJ8{d-JvFb>
+z*_BbQq||ISrIpJ@IaQzzsyVIF)mS(Zm7}vKsIi5Hu~@21C!cy*Ys|6P6uXjQ4b#np
+z9FNAL%CkOd;`xS&=$>{kS3gt5?R?kR$g!vtjeo#PZCq*Ch;)sOQL1*Wh!hD&BZ)bl
+zT3BpYQ0x}Wh0T3Ko0v|<*aODrJk-doh7s8^Vq2m+u#pneiKL_?l;_-T$HbLcdl*fN
+zWvyV`)7lqWn9;75qG2f!o^{dQNkfw@=ta{6jVDzt?=)<&Wi{63T}_1JiV_Vw%?{o$
+zu}@!3OvmGLI2jN1(LhWz0<ph>lAxu;Ia=R|&id}F7)vH)IpHU(4xY^QlP{A^@(J=;
+z^3UYg$Q+q_+yfH;000000002+HX{&lj&kPemAQK6CSP(4+tR6&k<YqM_c^CHYa@WU
+z5Wv<EyaRsch_AW3ihSQ8xSR^tWuJw2$nBiuIyTpwA^+uY4Rg*Aw`YgJAnA9GTTZC?
+z^mf5*bC~#A-kqRnFUdQ|56M@^H_4aCACo-!Rr1@9E0_QP00000006)*JH#aj^*OmY
+zCHDqgg0)b<X5##5*ZH$tV^53qzvrB5Vw|%-*0-Iz{jT9*b5Ve;9=HOoVZlt9zs=(u
+zat)7~$<~5F-$|En-e)d9G<Gqt{r_IF<sd&G-ynZaUL$`*K1N=q82|tP00000004Lt
+z0$!Ix5L)wpKTp%c&H4Y3$K^PGwqyQ(*6ngkjQ5!T54c>8;o-*o-|wU;p*jCQ)kl+~
+z?eqVW94+yD+x(wB|34FWpM(5}e3SeQ`8@d~`3+JcFOaL`X%Zv?;R4?cd@b;$z-I%$
+zA9y8D4tykVJ@9_20000000000;FxmC#Z7SDtd`f<yCm5J_Dnr1v#AzyR+d0q+z97o
+zuRt)<Pn>jd;~Z~kv1#sbJ;zdFIi~|I?mWjc9djOh+QkJqPeY|X4?b1TY-rUpPnxDY
+zreZy3@QjO-IJc#1n<|s~1xw#{Au#OXCOJ2=VaxTKmR*(|HoG3E=U4{JccGeYyO^f=
+zVp}s9PD{m{g8S-OmQMX0n`V5ROsW1}P{GB8xIRnE_Eyb$zNOmAcbjqOWBRR3*J+n;
+zlCx|yCiYG<(=yP=>>G6XCVWiW{`}uD__+HP00000000000NzU2^MB0$0RR9100000
+zfa49G{{sL3000000074yHvi`WuRG{J0000000000;BCzA)0}(p758kin0p}Sq*$z+
+z+=>^C%vQCsUCvcw+g0O1Cb=0|e<>4Qyp(&ee)o>PbZaGl=kChp;!CqH(L80nu<+8I
+zTX!~>*5)INFJ<qpuWj95k{2S2mrC)4d~!2;d&Rh|eDI|^x36xfw{Gam`oe<+{l0!%
+zzAR<0Y;I(4FXc1&q`rP@seI>FbZg<Rq2IYu+DsR+_pTL|?xl+>JL;{4?e*Iq46Ad|
+zrd(zxx|Ehz^6B}jo9l8lpDx_cugzWEFy$^MrHuT+o!j!}W=77@GOune%9l6S3oH8K
+zm34V}?M8(9D=l8S5xsNw^48*|b()@iu)cOPvUF)_Yw7O#{pCyR(n2x(emN|~rzCkw
+zii=WWMo!L1%5*HL#1k^x|Id+cIq1I=kGmxS0000000000aCF9<i@t+aMX>)L00000
+z00000IR0S%4*&oF00000033hVrvEdf>L5QOKOsLR-zVQ8|4zP1{)v2*{2h6nyhi?<
+ze4c!c{0aFq`6T&0@;l^J@*CtOssI2000000004k}aXUHAd&WEp=J5%3<cH1UY4bS5
+zj-FHI@uYbiWJfnKj{)=OXGhn7dF(fjC)m;HGml>L$g^Xg$2_{tqs!&=aZYyVb2@!K
+z_Wa*XKJFmjCSM_6B%h(D00000000000C+1Ia(f&@qdsq;q^xe2w6eIVm5m{nndxiG
+zJmsXBBc|j+Mib}Cnpzm{qj?ji;DVSp?rCCL%^1aV9L-khqT;4n)x^S%m^OAc%DPs}
+znlJss{(k@f00000007`vgZV!I000000001R{K5Pm0000000000IR0S%4*&oF00000
+z033fX{|5j7000000053ZnEwL+000000002TAHR3magzJ6gIoywL;t1zH%^53+una1
+z2zox}{(*ba^+{Ks(;E={SGf;!pW%pO=S?fPHguX7ZcK5ts9wx!57h1IW@@{ll~cL0
+zv0bXv|4ZrFR5BioCZmx^r^N8w%KYrwytuG*Y5ul2cCdjlad~O4+?aTAtRXrUtPKwF
+z!ZP(r>h6_!PHo0iN!GH7bf>`ScBdXbd6pNZrnpzRs+!Jg*}G~nXQb3@K`*BAMy@mc
+z9!q;|_StLm;#lWp<|=hk)QeRur<KK}<u!5X=Cy0$^_7Li*_Czi`T2Em_U791!V)#K
+zIKQ;^lsIOj?`oMUtDIQX9#l<*R(4q{mB++;YB{s1mM_ZTaIk5W3aOc@ZWL1+d6kx3
+zDX958En3_zR`gs^%i1NWdNHS^3R<P2=Cnppw(AD<xmZnAcS>5Stq#opmHEr_EAvZp
+z^Q+BD+ZC*O2dNz^{#{~Vx6y1Bo2FHls$QV>vT9XhXHE5B?f$S=sQG5O-B3r%n}?EC
+zF6fmCwb1GVtvr^JB5EuhQ{>ckQGc<wwqP~!&83AKH@kG+M=7ndV|UtMQD_8?MxxCU
+z?eg!058{FPy?ts#E?9f!6fbO1mn!?a)T(bpiH0-bOh=cfiw_;p5e{YaV6SO=+k!fC
+zk{5DGuBNtXP`_&LaqT@V5y?a|Nm=VIe5y;B4{Oop{2monh0cCDIminyQ0Eu-bG{j;
+zv?PZ!>5XJ}xs!+Tdylb$T(*U}+Ha2h56_w-e`gbQrU%+b{%$RL<dOf;$I50k4xwtw
+zHgto&A3I(VMn<?-$J?vjJUP*$qK{O=l3J<UH_F-8H<%<Rg1hGicwu&ydpOq-`p$8&
+z_Z5Gy=IA!G{sJ4O{UdP*{gy(ri3SE7?_Umb4)aq~c`>h7wG@>#%yg<%)s&H^-!tv$
+z{@qhvUPvanhtITPyXTY8J=fPIrd>ZoM~>$sch@&5qP0N}FN}_IwXKezw9fcmm4BoP
+z7gcr>)9CXF+fAGGbrMu~k8ovl-$t%SO=_Kc{ZBZ~vs?3BkDC`JC)++irP^IWZ;+fx
+zZg>1p<8S+zAI@YIIhqc)z6$rK4)*>+e6(T?Jy`F(C!#@!2*Dut>Qu)N!afA;spf!I
+zyDIR4G0W9nJm?0p<5q4XosMqEncfQT?sYG7NXv)0KkWRnO+3L18Cse3!`=<6$*87g
+zrF3u6cOAMKoi>khgB!fw=V6_9-E29l>sPcFx3yxXGwE#mRCZjv$UbFH(NwUu&hbJh
+z#O<o~SzJNSl~p#UsO-t;>pG8XU4Ntxy;>^SW@^!B+f1!}MCiOqRr9)*?Kbbh^M3#U
+z00000007|l<L7QT2=^Yxz<B@fp7?9u|9F4oeHUN$yy{tSf5G*|z#8`+=f|9W=f|iB
+zrG9+pAjLew{K&y;<*jA%3H}-GwMSiEAEC;BX|6j44_J5f#66~iHFty;<|nz@lcxQ`
+zc16#mDn>DvQuFEUg876~RwI&<N!YG2Yvb*!ar<f3m)|<{*&0?uax6$4pEH+?71Qw!
+z*-q8=<*_b?kGwdxq31PguR!xrQ2Sm6(|%R2=G)fE+GSo&&|r>owev>^=Gddhu|0&l
+z?~9vH5ndVT2x04t^a|W#j9Ie+`#(FW`)Ud|o|}l5*!2~&E(=QwYYVg2uB}^{^OvY;
+zy^`8c?-^zK5gHTIhLN{z*LWcF!uUA%Fm4N$Y29`@+AUmm7mm09TdwMr>Oqm{2v@XY
+zOHEEImfHf}%|_nH8ErB)p<wN_#0#rIu9h@=skOLV(dvu$+Jll_)>3StH>E~1F*z1f
+z+C{|n4togwdcSQKWD&H<js>3%dxYNOUPmcXd%C|C3-N5++kMi$!fst{Po3zxwr=yP
+zQO1_G(~4ol{*27l$gGoF^0XT2-i=H4I(At;ANZ<6Ipi0FCu$AZ7cTI^3zKd87;H~p
+zI(AB><c&x?rbW^na)B-nQx0Lp_9UhKL1yO$tzd0+oELT`xm|K7H#0_7V-F!xVM$FZ
+z@u=E*($~`R^nS#5WYdSPiMji%Zh;Q6{8;_b=Dh9EW>dW*dA`d-+dYqek2Z$%-Uruh
+z(A<A7T(ed^N0WV?3I%J=jq-w_aJ851!$_NdYN?dUt7$EtD$t_xsdy}%RkBLjjDHse
+zSJ&n}vgNknrnBx%P1dfaGVQ7hA}=Tkx0|$&9(K(xS?;dmNS9C_`6->{U(Z&ld)@tV
+zur_$!zVEGb3uyDvXeJtqXlXUpDR8dq=-ykuE!b^4O<VikE}r9s6m{uFcbE2jUL)y@
+zmeA6jf@cqKt(TqNF76q$=nUmm?6-Z~`)wZvqrABZY_!KFunTYfCNO(2@@l2Z+EXvu
+zzryR+=sjj-n-1#r;@fUAt?G9SvC+M|ZOnV=GA*NBRB3Nqt)S|8`)C|#yUZM^sv8@7
+zouF4($GF#d6HG6ew`q6j-A31k`;DsaQv*Ez2LJ#7000000Nw#${to~E000000010+
+z*!<s1zV0C3BVQ*!CI3x+ME-;P3wh&l`vm|100000004k}a637U_p+mxH;*3k=r;3R
+z=DE{6_PLy#&s(4Wf5Sn3Mt(wmOnyMVOXvUpN;3ce000000002+_Q&P)ab9-d*}=mO
+zZgz07gOeTloKBz5PesoR>^R7`$QQ_Ok&h6WxB}k^ydL;;U^noQz^?>`{NMKfss9uH
+zoc|gBxSt#Nw}CGYd}`p$`#XRD000000D$Aq*crEjo0#%uwY<h&n#x{$JEs=KdRnZ%
+zrdO!TSZ}*)%GA?!nR8E2nUN>GYBt*vpo#ibahP5mpX9Al*b9wqg|MV}x-Mar(U7o;
+zV99q6QHk>tJS(AbnH9j!-+PK)3re1b{rbCP?M2jc-g~kx*C?eW*C@z(Iq#t9jmIpj
+zC1e&?PlgDUke+s1C0g(8W3TPAm1^aREISmaD_BK$C|JeY6@q@MFd20-A3CI&A9hi3
+zz;xGTIm2F;XY+z3#s0d4ReD3hDwZYReZmZ{ixt<n%*rv}$mcUVfYY*X{>4UH0rkJ2
+z>8;CHB{XHMBFywT-s~h!Rz_2R6=Eiy^3bcHc%M~D>lLrIqFR|xx$DwadF|3xp{>mK
+zy3B^}V<oqXvf^7g7oBd0Z!&7RkT-HP#N{2E12juC^Dg$8l2-9{NvrUt<QPXKCqk@f
+zyBI6DDZ}RfUjK(3<WpoO@V&rq2HxfWq5rRF1^@s600000fFqFc`W!^zRL(amEr^>c
+zoyQe+#I&)qQP#C$w(mnPTW|8uj?IWKk8S8$K3k!uA8PyCM=yNzqc8AsSc*?c@>Dn}
+zO45v!oCznV6R}7*84dEZkRi@b3yF$TqSM<HjhUj-Oe8rSOGLwQDd=g6M)rt?XCm@U
+zI6NIrNOCfI*G)y|xD*vtF6+6?s<>g4#a!Mf?@-Mp?S6fMWuGe8{+1D|L1$Ugj4V%w
+zrAR_frd?*3Qb!My?JrcdM=2`G@{F9AQKac;A`*#)mz}IWzR3gXLyMyG<9b1DPDeyp
+zno*RQs5DLElL$xEK58&zwynIn#eBZ5mba*_#hvQrfnjO++$us5rNm4m%-SH5lwy%2
+zwcSxf>CGrYiOtB#>10ewBx6=b<>=2i{TX|V9~J-r000000002Ixp<v|&-^==?DzjU
+z@@)tG2LJ#7000000Dxaw&O2v)jpzSToIU@SlQWVs9ZM?lgzOLeg~J(GaF9O?ERYa6
+z^SHeQ000000002+HmBIfJBCMxYjL(Wy|o|y`gU<^vsx`xW<sI+_wP?{R*R~huW0JD
+zQO-?oZ-q9isj60~hVGZ9tTzjUwo7?K%~nEm)*1<gqoJkM>r>a3uPn!=lyLX~{h2Nm
+zbF|2NBa_3mr<+^%J9hQ27@4+`OJ%K8DH-Kz<-Vqtr!z(&RM4`z8qy1DPOF46Mn13A
+zf1}>0ggkDK!%v~b5L+=@PTs+i=MPhAMboyJHM1<Ml$8*ZNUd%f52o0)smP^BBAS%u
+zBjG8#JgZ`w;~f)2XKTWmx<hS?tM~Pd>WY?~Gq%~U?l+35him%2zNMQLVv!B8RLQKK
+zRt#w&EfK04Nts4cQz>ePmBF6>yUBNL@Be?y{RjX600000004MLaLVm=42}8<C1rKH
+zq?N@@t!$if?ae#sq<JGOZy}?Jb7f5}obIDp6K0l}H|}X-TFn^6vmDLs_5Oc0|91>J
+zF#iVt000000001v0sH;^KaSjX(0>2`000000000uBDD$5@2CZ5eS$ya^UeB8>8<RB
+zoT_Z9ax`{93NtQjT}q~}EpJ_2y^%I9$hU5U??%@Y#khI>`mJXx+ZzkpE6PURSS}>>
+zP-JseD=FH8(Ct}i@%`=Z^S6GVKcOV0i1|`K^Y8)ffm$f#HTK&C9rE!RB{?l8<H=aG
+a{{Fw8IOsnB0000000000950&h|Nnn#7H(4j
+

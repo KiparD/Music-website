@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8942de8-b15f-44bb-907d-cee72df0d181" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/music/views.py" afterPath="$PROJECT_DIR$/music/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -492,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514470244909</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Views">
+      <created>1514544839602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1514544839602</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -574,7 +580,8 @@
     <MESSAGE value="Create_album, base, urls" />
     <MESSAGE value="Base_visitor" />
     <MESSAGE value="Create_song, views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create_song, views" />
+    <MESSAGE value="Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,10 +2,39 @@ body{
     background: white url('images/background.png');
 }
 
+.thumbnail{
+    opacity: 0.8;
+    box-shadow: 10px 10px 20px;
+    wight: 120%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.thumbnail:hover{
+    opacity: 1;
+    border: 1px;
+}
+
+ul.errorlist {
+    padding-left: 0;
+}
+ul.errorlist > li {
+    list-style: none;
+}
+
 .navbar{
     border-radius: 0;
 }
 
 .navbar-brand{
     font-family: 'Satisfy', cursive;
+}
+
+.glyphicon-star {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.glyphicon-star.active {
+    color: #FDB230;
 }
